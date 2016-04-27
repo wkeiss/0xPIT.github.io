@@ -2,7 +2,8 @@
 
 # TEAM
 
-	Your name - your home
+	Karl Pitrich
+    Sérgio Kopplin
 
 # TECHNOLOGY
 
