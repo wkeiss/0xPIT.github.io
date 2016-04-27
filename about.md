@@ -14,12 +14,12 @@ permalink: /about/index.html
 
 <h2>Projects</h2>
 <ul>
-	<li><a href="https://github.com/reflowOvenController">Arduino-based reflow oven controller with graphic LCD and PID control</a></li>
-	<li><a href="https://github.com/encoder">Rotary Click Encoder Library for Arduino</a></li>
-	<li><a href="https://github.com/UltiDMM">Accurate Panel Multimeter for Lab Power Supplies</a></li>
-	<li><a href="https://github.com/adc">AVR Analog Digital Converter Library with Calibraion and Interpolation</a></li>
-	<li><a href="https://github.com/menu">Simple and Concise Embedded Menu System for Arduino</a></li>
-	<li><a href="https://github.com/cubemeter">Crude Node.js Smart Meter Platform</a></li>
-	<li><a href="https://github.com/dskrbt">As Simple as Possible CD/ DVD Disk Changer Robot</a></li>
-	<li><a href="https://github.com/esp8266playground">ESP8266 Playground</a></li>
+	<li><a href="https://github.com/0xPIT/reflowOvenController">Arduino-based reflow oven controller with graphic LCD and PID control</a></li>
+	<li><a href="https://github.com/0xPIT/encoder">Rotary Click Encoder Library for Arduino</a></li>
+	<li><a href="https://github.com/0xPIT/UltiDMM">Accurate Panel Multimeter for Lab Power Supplies</a></li>
+	<li><a href="https://github.com/0xPIT/adc">AVR Analog Digital Converter Library with Calibraion and Interpolation</a></li>
+	<li><a href="https://github.com/0xPIT/menu">Simple and Concise Embedded Menu System for Arduino</a></li>
+	<li><a href="https://github.com/0xPIT/cubemeter">Crude Node.js Smart Meter Platform</a></li>
+	<li><a href="https://github.com/0xPIT/dskrbt">As Simple as Possible CD/ DVD Disk Changer Robot</a></li>
+	<li><a href="https://github.com/0xPIT/esp8266playground">ESP8266 Playground</a></li>
 </ul>
