@@ -11,8 +11,8 @@ I was borned in 1996 .I dropped out in my second year of college.
 
 I'm interested in the world and poeple.These majors I have contact make me interest--Physical Geography,Pychology, Physiology,Cognitive Science and Computer Science.
 
-I love writing and photographing.For me, they both are a way of finding and leaving the wonderful.
+I love writing and photographing.For me,they are  ways of finding and leaving the wonderful.
 
-I love nature and beatuty,they make me feel good. : ）
+I love nature and beauty,they make me feel good. : ）
 
 If you want to contact with me,welcome to send Email to me.Don't be shy!
