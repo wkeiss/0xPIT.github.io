@@ -1,12 +1,12 @@
 # main text of home
-name: Karl Pitrich
-bio: 'software person // hardware hacker // guitar player // tube amp builder'
+name: Guihua Li
+bio: 'A Person Living As Herself'
 
 # if it's an external image, update below for true
 external-image: false
 picture: 'assets/images/profile.jpg'
 
-url: http://karl.pitrich.com/
+url: http://wkeiss.github.io
 
 permalink: /:title/
 
@@ -14,23 +14,23 @@ markdown: kramdown
 highlighter: rouge
 
 # To enable google analytics, supply your token below
-analytics-google: 'UA-42446402-4'
+# analytics-google: 'UA-42446402-4'
 
 # if you don't want comments in your posts, set to false
-disqus: 0xPIT
+# disqus: 0xPIT
 
 # if you don't have any of social below, comment the line
 # facebook: myfacebook
-twitter: 0xPIT
+# twitter: 0xPIT
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-linkedin: 0xPIT
+# linkedin: 0xPIT
 #youtube: KarlPitrichOfficial
 #spotify: myspotify
-github: 0xPIT
+github: wkeiss
 #medium: medium
-email: karl@pitrich.com
+email: wkeiss@gmail.com
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
