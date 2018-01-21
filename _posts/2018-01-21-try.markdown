@@ -2,6 +2,8 @@
 title: "Try 试试"
 layout: post
 date: 2018-01-21
+tag:
+- try
 blog: true
 ---
 
