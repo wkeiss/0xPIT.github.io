@@ -1,6 +1,6 @@
 # main text of home
 name: Guihua Li
-bio: 'A Person Living As Herself'
+bio: 'A Person Who Living As Herself'
 
 # if it's an external image, update below for true
 external-image: false
@@ -58,7 +58,7 @@ show-tags: false
 related: true
 
 # do you want some animations?
-animation: true
+animation: false
 
 gems:
   - jemoji
