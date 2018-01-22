@@ -13,6 +13,6 @@ I'm interested in the world and poeple.These majors I have contact make me inter
 
 I love writing and photographing.For me,they are  ways of finding and leaving the wonderful.
 
-I love nature and beaty,they make me feel good. : ）
+I love nature and beauty,they make me feel good. : ）
 
 If you want to contact with me,welcome to send Email to me.Don't be shy!
