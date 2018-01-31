@@ -1,5 +1,5 @@
 ---
-title: "new-year"
+title: "恰同学少年"
 layout: post
 date: 2018-01-01
 tag:
@@ -7,8 +7,6 @@ tag:
 - new year
 blog: true
 ---
-
-# 恰同学少年
 
 时间是一个孤注一掷的少年，偏执地按着一秒钟，一分钟，一小时，一年走，任谁也拦不住。
 
