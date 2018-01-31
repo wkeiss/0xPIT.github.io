@@ -9,7 +9,7 @@ Hi guys,I'm from China.You can call me wkeiss.
 
 I was borned in 1996 .I dropped out in my second year of college.
 
-I'm interested in the world and poeple.These majors I have contact make me interest--Physical Geography,Pychology, Physiology,Cognitive Science and Computer Science.
+I'm interested in the world and people.These majors I have contact make me interest--Physical Geography,Pychology, Physiology,Cognitive Science and Computer Science.
 
 I love writing and photographing.For me,they are  ways of finding and leaving the wonderful.
 
