@@ -11,7 +11,7 @@ The lovely theme I use is [Indigo Minimalist Jekyll Template](http://sergiokoppl
 
 - Thanks [@sergiokopplin](http://koppl.in/) for building such lovely theme,and other contributors of the project.
 
-- Thanks [@aanasw](http://artiannaswamy.com/) for your acticle [Build a Blog with GitHub - Part 2 - Arti Annaswamy](http://artiannaswamy.com/build-a-github-blog-part-2),it help me change my headers of different pages.
+- Thanks [@aanasw](http://artiannaswamy.com/) for your acticle [Build a Blog with GitHub - Part 2 - Arti Annaswamy](http://artiannaswamy.com/build-a-github-blog-part-2),which help me change my headers of different pages.
 
 - Thanks @mehmandarov for your generous and warm-hearted help when I met [issues](https://github.com/sergiokopplin/indigo/issues/274).
 
