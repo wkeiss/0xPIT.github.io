@@ -1,7 +1,11 @@
 
-## This reposity, which fored from [0xPIT/0xPIT.github.io: dummy site](https://github.com/0xPIT/0xPIT.github.io), is for my personal site: https://wkeiss.github.io 
+## About the reposity
 
-## The lovely theme I use is [Indigo Minimalist Jekyll Template](http://sergiokopplin.github.io/indigo/) 
+This reposity is for my personal site: https://wkeiss.github.io 
+
+## The Theme I use
+
+The lovely theme I use is [Indigo Minimalist Jekyll Template](http://sergiokopplin.github.io/indigo/) 
 
 ## Thanks
 
