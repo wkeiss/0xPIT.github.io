@@ -1,8 +1,8 @@
 ---
 title: "我用六年时间追寻一个问题的答案"
-layout: 2018-02-18
+layout: 2018-02-18 17:46
 tag:
--big question
+-"big question"
 blog: true
 ---
 
