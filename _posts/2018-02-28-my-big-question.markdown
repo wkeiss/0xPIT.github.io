@@ -2,6 +2,10 @@
 title: "用六年时间寻求一个问题的答案"
 layout: post
 date: 2018-02-28 
+tag:
+- "big question"
+- learn
+- life
 blog: true
 ---
 
