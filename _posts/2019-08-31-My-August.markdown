@@ -3,7 +3,7 @@ title: "八月再见"
 layout: post
 date: 2019-08-31
 tag:
-- 2019
+- "2019"
 - August
 - growth
 blog: true
