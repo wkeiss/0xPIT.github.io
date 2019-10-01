@@ -1,4 +1,13 @@
-## 我的七月
+---
+title: "我的七月"
+layout: post
+date: 2019-08-01
+tag:
+- 2019
+- July
+- growth
+blog: true
+---
 
 入八月了，故七月完结。
 
