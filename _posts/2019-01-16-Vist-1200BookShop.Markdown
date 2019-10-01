@@ -1,4 +1,11 @@
-# 探访广州1200BookShop
+---
+title: "探广州1200BookShop"
+layout: post
+date: 2019-01-16
+tag:
+- bookstore
+blog: true
+---
 
 上周二去了位于广州市体育东路的1200bookshop，这个书店我很早就知道，缘与Airbnb。去年春节后，我来广州原本定了1200bookshop的深夜书房，这是书店里的一个小隔间，读者可以晚上租用来一个人阅读，里面有沙发，也可以睡一觉，适合背包客。
 
