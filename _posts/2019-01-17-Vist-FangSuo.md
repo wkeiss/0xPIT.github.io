@@ -1,4 +1,12 @@
-# 探广州方所书店
+---
+title: "探广州方所书店"
+layout: post
+date: 2019-01-17
+tag:
+- bookstore
+blog: true
+---
+
 
 ## 1
 
