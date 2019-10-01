@@ -4,7 +4,7 @@ layout: page
 permalink: /about/index.html
 ---
 ## About Me
-**Name ：** 辰沙 (Chensha)
+ Hi, You can call me Guihua.(桂华)，Nice to meet you.<br>
 I am being a web developer. See You!
 
 
