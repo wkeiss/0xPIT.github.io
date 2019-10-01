@@ -1,6 +1,13 @@
-## 八月再见
-
-
+---
+title: "八月再见"
+layout: post
+date: 2019-08-31
+tag:
+- 2019
+- August
+- growth
+blog: true
+---
 
 下着雨的夜晚，让人想要喃喃自语，因为不知道讲给谁听。
 
