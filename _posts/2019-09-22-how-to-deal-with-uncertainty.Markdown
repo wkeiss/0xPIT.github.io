@@ -5,7 +5,7 @@ date: 2019-09-22 21:24
 tag:
 - uncertainty
 - my thoughs
-projects: _posts
+blog: true
 ---
 
 ### 如何面对不确定性？
