@@ -1,5 +1,5 @@
 ---
-title: "听见自己的心声"
+title: "听见"
 layout: post
 date: 2018-01-31 21:24
 tag:
