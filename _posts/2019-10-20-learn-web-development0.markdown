@@ -1,4 +1,14 @@
-# 学习网页开发0
+---
+title: "学习网页开发0"
+layout: post
+date: 2019-10-20
+tag:
+- "2019"
+- "learn web development"
+- growth
+blog: true
+---
+
 
 > 我打算写一个 学习网页开发 系列，理清这次在知识丛林之中的探索之路，分享自己的收获，同时激励自己继续向前。
 
