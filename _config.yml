@@ -6,8 +6,7 @@ bio: 'A Person Who Living As Herself'
 external-image: false
 picture: 'assets/images/profile.jpg'
 
-url: http://wkeiss.github.io
-
+url: https://selfspeak.space
 permalink: /:title/
 
 markdown: kramdown
