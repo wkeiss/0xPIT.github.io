@@ -6,7 +6,7 @@ bio: 'A Person Who Living As Herself'
 external-image: false
 picture: 'assets/images/profile.jpg'
 
-url: https://selfspeak.space
+url: https://www.selfspeak.space
 permalink: /:title/
 
 markdown: kramdown
