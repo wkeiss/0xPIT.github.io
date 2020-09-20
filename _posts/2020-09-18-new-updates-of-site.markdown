@@ -28,7 +28,7 @@ First you need to add your site your Disqus account, if you don't have a Disqus 
 
 If you like me use the [ Jekyll Template](https://github.com/sergiokopplin/indigo) to build your site, you don't need to install disqus into your site. But you should add your site to your disqus account to get your site's short name start from here:https://disqus.com/admin/create/. Then you will head to a select plan page, you can don't buy a plan now, just skip to step 3 configure Disqus buy click "Configure Disqus", and input the inqured info, click 'Complete Setup' in the bottom right corner.
 
-### ![configure-disqus](/assets/images/blog-image/configure-disqus.jpg)
+![configure-disqus](/assets/images/blog-image/configure-disqus.jpg)
 
 Head to the https://disqus.com/admin/settings/general/  and click the site you just added, then you can see your site's short name.
 
@@ -57,6 +57,7 @@ I was going to change it and changed, but I found the style of the prime is quit
    ![click-inspect](/assets/images/blog-image/click-inspect.jpg)
 
 2. You can see the selector under the 'style' tab.
+
    ![selector](/assets/images/blog-image/selector.jpg)
 
 3. You can [change the elements' style in Chrome](https://developers.google.com/web/tools/chrome-devtools/css#declarations) and see the new effect on your site directly, but it only for test, it will not change the style of your site. If you want the new style to be applied in your site, you should back to the file `/assets/styles/main.css` to change the style. 
