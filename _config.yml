@@ -7,7 +7,7 @@ external-image: false
 picture: 'assets/images/profile.jpg'
 
 url: https://www.cindyli.top
-permalink: /title/
+permalink: /:title/
 
 markdown: kramdown
 highlighter: rouge
