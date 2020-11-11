@@ -29,22 +29,20 @@ I wrote the HTML of the home page through the live site. I thought I won't have 
 
 Before I googled, I looked at the source code, I found there were no icon pictures shown above, and the related code I couldn't understand. I just wanted to achieve the design using what I learned rather than copy the source code before, so I won't try to understand the source of how to build these icons. I searched online I couldn't found the same icons, so I decided not to achieve this section. But there were social icons in the footer I need to achieve. Then I googled, there is an article in W3School about the topic: [How To Create Social Media Buttons](https://www.w3schools.com/howto/howto_css_social_media_buttons.asp). So I followed the instructions：
 
-1.  Add the icon library, put the link in my HTML Header Tags
+1/ Add the icon library, put the link in my HTML Header Tags
 
-   `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">`
+`<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">`
 
-2. Add social icon font
+2/ Add social icon font
 
-   `<a href="#" class="fa fa-facebook"></a>`
+`<a href="#" class="fa fa-facebook"></a>`
 
-   ` <a href="#" class="fa fa-twitter"></a>`
+` <a href="#" class="fa fa-twitter"></a>`
 
-   `<a href="#" class="fa fa-linkedin"></a>
-   <a href="#" class="fa fa-google"></a>`
+`<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-google"></a>`
 
-   
-
-3. You can style the social icons like style fonts, like add color or font-size to them.
+3/ You can style the social icons like style fonts, like add color or font-size to them.
 
 And also there is another challenge in HTML is how to achieve the dropdown menu icons. I wanted to only achieve one page only for the first time, so I skipped the dropdown menu also. From now on, I have ended my HTML coding.
 
