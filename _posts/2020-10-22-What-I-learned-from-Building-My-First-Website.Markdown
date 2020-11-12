@@ -19,7 +19,7 @@ Before doing the task, my challenges about HTML and CSS are easy to achieve, the
 
 ## Choose an open source design
 
-I chose [a theme](https://demo.themewagon.com/preview/timer-free-responsive-multi-page-personal-bootstrap-template) in the site [Free Open Source Bootstrap HTML5 CSS3 Website Templates @ ThemeWagon](https://themewagon.com/theme_tag/open-source/) and downloaded the source code so I can have the pictures used in the website.  I know the author use bootstrap to build the site, but my focus on building a website use CSS, HTML, and Javascript only, don't use the framework.
+I chose [a theme](https://demo.themewagon.com/preview/timer-free-responsive-multi-page-personal-bootstrap-template) in the site [Free Open Source Bootstrap HTML5 CSS3 Website Templates @ ThemeWagon](https://themewagon.com/theme_tag/open-source/) and downloaded the source code so I can have the pictures used in the website.  I know the author use bootstrap to build the site, but I want to write all the code by hand, don't use the framework, since this a  good chance to practice what I learnt about HTML, CSS and Javascript.
 
 ## Write HTML
 
