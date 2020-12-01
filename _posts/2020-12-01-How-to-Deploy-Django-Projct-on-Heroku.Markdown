@@ -67,8 +67,7 @@ Heroku 发布 Django 应用总体来说是很方便的，几乎也用 Github Pag
 
 只是打开项目的网页，还是有报错信息，是我们在本地开发的时候熟悉的 Django 的报错页面。根据具体的报错信息，在 `setting.py ` 文件给 `ALLOWED_HOSTS` 添加 `lonelyislandcindy.herokuapp.com`  这个域名，这样网站才可以在这个域名下显示。然后有一个问题：
 
-`ProgrammingError at /
-relation "posts_post" does not exist LINE 1: ..."posts_post"."body", "posts_post"."pub_date" FROM "posts_pos...`
+> ProgrammingError at /relation "posts_post" does not exist LINE 1: ..."posts_post"."body", "posts_post"."pub_date" FROM "posts_pos...
 
 它指向的是我的 template 中使用的  for 循环来访问所有数据库中保存的 post 数据这部分的代码。经过搜索，发现是自己没有在本地终端输入 `heroku run python manage.py migrate --app lonelyislandcindy`  来使数据库应用于我们的应用。因为我不是在终端部署我的网站应用的，所有当我使用 heroku 的命令的时候，后面在添加 `--app appNameOnHeroku` 来指定是对哪一个应用执行命令。最后发现就可以正常访问网站了。发现之前添加的  Post 都没有了，使用之前创建的一个用户账号也不能登录了，这是因为本地开发的时候我们使用的是 SQLite 来作为数据库，而 Heroku 不支持使用 SQLite, 它免费提供来作为数据库，我们免费的账号使用的就是这个数据库，数据库改变了，所以就没有了原来的信息。需要新建用户我们先需要新建一个超级用户来登录后台，新建超级用户是在终端输入 `heroku run python manage.py createsuperuser --app appNameOnHeroku` 。然后通过在 App 网页地址后加上 `/admin` 来访问管理页面，接下来你就是你熟悉的 Django 管理页面啦，你应该知道该怎么做。
 
