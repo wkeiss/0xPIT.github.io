@@ -1,7 +1,7 @@
 ---
 title: "如何在 Heroku 部署 Django 项目"
 layout: post
-date: 2020-11-28
+date: 2020-12-01
 tag:
 - "2020"
 - "blog"
@@ -12,11 +12,9 @@ blog: true
 
 我做了 [孤岛 ](https://github.com/wkeiss/lonelyisland)这个网站应用，网站的用户只有我自己一个人，别人可以看见我发布的碎片的简单的想法。这个项目对于Django 的老手来说，简单得不能再简单了，但是我做出来可是用了好大劲呢！也许是经常使用 Github Page 来发布博客文章，所以想着发布自己的网站应用也应该是一样简单的事情。但是我的整个发布网站的过程一度让我崩溃。
 
-![lonelyisland](/Users/apple/Documents/wkeiss.github.io/assets/images/blog-image/lonelyisland.gif)
+博客这类只有 HTML， CSS 和 JavaScript 这三种运行在浏览器端的代码的网站属于静态网站，发布基本上就是上传代码到云服务器就可以。然后根据相应的域名就可以直接访问。比如我发现的这个可以免费发布一个静态网站的平台：  https://neocities.org ，还有我现在博客正在使用的 [Github Page](https://pages.github.com/), 就可以帮你很轻松发布自己的网站。而网站应用呢，除了有静态的网页模板外，还需要与数据库交互，比如我的孤岛这一个简单发布自己碎片想法的应用，需要将数据写入数据库，然后服务器调用需要的 post 将它们集成一个网页再传回用户端，在浏览器中展示。所以发布网站应用，让自己的代码能够按照自己的预期在相应服务端平台运行起来，要多做些工作。
 
-博客这类只有 HTML， CSS 和 JavaScript 这三种运行在浏览器端的代码的网站属于静态网站，发布基本上就是上传代码到云服务器就可以。然后根据相应的域名就可以直接访问。比如我发现的这个可以免费发布一个静态网站的平台：  https://neocities.org ，还有我现在博客正在使用的 Github Page, 就可以帮你很轻松发布自己的网站。而网站应用呢，除了有静态的网页模板外，还需要与数据库交互，比如我的孤岛这一个简单发布自己碎片想法的应用，需要将数据写入数据库，然后服务器调用需要的 post 将它们集成一个网页再传回用户端，在浏览器中展示。所以发布网站应用，让自己的代码能够按照自己的预期在相应服务端平台运行起来，要多做些工作。
-
-Heroku 发布 Django 应用总体来说是很方便的，几乎也用 Github Page 来发布博客一样，将代码传上去就可以了。在部署网站应用之前，我的 Django 应用已经能在本地运行了。于是接下来的部署我是参照 [Django Tutorial Part 11: Deploying Django to production - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Deployment) 这篇教程来完成的。为什么不看官方文档呢，因为官方文档没有 MDN 这篇这么详细，对新手如此友好，但是遇到问题或者不明白的地方，会结合官方文档来查证信息。
+Heroku 发布 Django 应用总体来说是很方便的，几乎也用 Github Page 来发布博客一样，将代码传上去就可以了。在部署网站应用之前，我的 Django 应用已经能在本地运行了。于是接下来的部署我是参照 [Django Tutorial Part 11: Deploying Django to production - Learn web development - MDN](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Deployment) 这篇教程来完成的。为什么不看官方文档呢，因为官方文档没有 MDN 这篇这么详细，对新手如此友好，但是遇到问题或者不明白的地方，会结合官方文档来查证信息。
 
 首先先按照 MDN 的教程准备好相应的文件，比如 **requirement.txt**, **runtime.txt**, **Procfile** 等。需要注意 **Procfile** 这个文件的内容：`web: gunicorn locallibrary.wsgi --log-file -` .你应该将里面的 locallibrary 更改你的项目名，也就是这个项目在 github 的仓库名， 我的是 lonelyisland, 所以我的 **Procfile** 这个文件的内容写入的是 `web: gunicorn lonelyisland.wsgi --log-file -` 
 
@@ -24,7 +22,7 @@ Heroku 发布 Django 应用总体来说是很方便的，几乎也用 Github Pag
 
 >  在终端输入 `heroku login -i` ，使用 Heroku 用户邮箱和密码登录。
 
-接着你可以按照 [Django Tutorial Part 11: Deploying Django to production - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Deployment) 这篇教程来继续后终端完成部署。或者你也可以在 Heroku 官网完成部署。我是后面发现部署完成后，发现不管怎样都需要在终端操作才寻找到上面的登录方式的，所以在这之前，我是先在 Heroku 上完成部署。
+接着你可以按照 [Django Tutorial Part 11: Deploying Django to production - Learn web development - MDN](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Deployment) 这篇教程来继续后终端完成部署。或者你也可以在 Heroku 官网完成部署。我是后面发现部署完成后，发现不管怎样都需要在终端操作才寻找到上面的登录方式的，所以在这之前，我是先在 Heroku 上完成部署。
 
 首先注册之后，在 https://dashboard.heroku.com 点击 create a app, 然后就按照提示授权 Github 账号和选择部署项目的仓库。然后选择自动部署，这样每一次你 Git Push 到仓库的时候， Heroku 都会自动部署你的网站。让我崩溃的就是这个部署的过程，报错的 Logs 密密麻麻，眼花缭乱心也乱。来~ 感受一下密密麻麻 ↓ ：）
 
@@ -74,6 +72,6 @@ relation "posts_post" does not exist LINE 1: ..."posts_post"."body", "posts_post
 
 它指向的是我的 template 中使用的  for 循环来访问所有数据库中保存的 post 数据这部分的代码。经过搜索，发现是自己没有在本地终端输入 `heroku run python manage.py migrate --app lonelyislandcindy`  来使数据库应用于我们的应用。因为我不是在终端部署我的网站应用的，所有当我使用 heroku 的命令的时候，后面在添加 `--app appNameOnHeroku` 来指定是对哪一个应用执行命令。最后发现就可以正常访问网站了。发现之前添加的  Post 都没有了，使用之前创建的一个用户账号也不能登录了，这是因为本地开发的时候我们使用的是 SQLite 来作为数据库，而 Heroku 不支持使用 SQLite, 它免费提供来作为数据库，我们免费的账号使用的就是这个数据库，数据库改变了，所以就没有了原来的信息。需要新建用户我们先需要新建一个超级用户来登录后台，新建超级用户是在终端输入 `heroku run python manage.py createsuperuser --app appNameOnHeroku` 。然后通过在 App 网页地址后加上 `/admin` 来访问管理页面，接下来你就是你熟悉的 Django 管理页面啦，你应该知道该怎么做。
 
-Heroku 的应用也支持免费添加自己的域名，只是需要添加信用卡信息来做验证 Heroku 账户。具体你可以参考他们的官方文档 [Custom Domain Names for Apps | Heroku Dev Center](https://devcenter.heroku.com/articles/custom-domains).
+Heroku 的应用也支持免费添加自己的域名，只是需要添加信用卡信息来做验证 Heroku 账户。具体你可以参考他们的官方文档 [Custom Domain Names for Apps -Heroku Dev Center](https://devcenter.heroku.com/articles/custom-domains).
 
 整个部署的过程，因为终端登录不上 Heroku 我以为我用不了 Heroku, 我转而去使用 Pythonanywhere, 尝试过 ASW， 腾讯云，最终都被让我束手无策的报错信息劝退了。可是我想着一定要部署出来，而且考虑自己今后会一直使用这个应用，就想着很久，觉得 Heroku 比较适合我，而且它有 MDN 的文档帮助我，再加上遇到问题的时候去搜索会发现 Heroku 会更容易搜到相关的问题，部署起来也是相对来说对新手比较友好的，我就决定就 Heroku 了，不管遇到什么问题我都要用它来完成部署。事实证明，代码的问题也是心力的问题，如果心力足了，不管中间遇到多少崩溃的报错，最终都会解决的。
