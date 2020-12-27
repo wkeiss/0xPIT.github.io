@@ -1,0 +1,11 @@
+I was doing a interview challenge. If you read my blog or follow my Github, you should know I am learning web development.
+
+In the challenge, the UI I need to achieve is a search bar with a search result section for show result emails, like our email inbox UI. I was going to use HTML, CSS and Javascript to make it, but considering the layout will change based on the result, I decided to use React. Though I haven't build a dynamic app, at least this experience let me  know how magicaly convenient it is to use React to build a dynamic UI.
+
+I learned Django before React, and when I learned Django, it was so hard to catch its official tutorial since I haven't enough background knowledge to understand, while the MDN Django tutorial is easier to understand. So continue this path, I think I should learn MDN React tutorial to learn react. But when I walking through the React tutorial, I found I was wrong, the tutorial is not too hard to understand, I guess it's because the background knowledge -- HTML, CSS and Javascript I have been familar. But there are still difficult things.
+
+It is simple to build dynamic UI, since its JSX expression. JSX expression is the combination of Javascript and XML, it's like the html expression can be a variable, so you can use it in javscript. Like: `x = <h1> Hello, World! </h1> ` or `return <h1> Hello, World! </h1> `. You can use it as a template. like if you fetch some jobs data which assigned to a list varibaile `jobList` using API, and you want to display how many jobs you have fetched, then you maybe use this code:
+
+`<p>There are {jobList.length} jobs:</p>` 
+
+And except the JSX expression, in React project, you are supposed to divide the UI to small components. Like my mail archiver UI, I will devide it to the SearchBar component, SearchResult component, and a big component MailArchiver contains all other smaller components. And you for SearchResult component, I will divide to ResultTable component and Result0 componet, since the layouts of have results and have no result are different.  And for ResultTable component, it's made of table row, so I build a ResultItem component to present the table row.
