@@ -5,7 +5,7 @@ This reposity is for my personal site: https://www.cindyli.top/
 
 ## The Theme I use
 
-The lovely theme I use is [Indigo Minimalist Jekyll Template](http://sergiokopplin.github.io/indigo/) 
+The lovely theme I use is [Indigo Minimalist Jekyll Template](https://github.com/sergiokopplin/indigo) 
 
 ## Thanks
 
