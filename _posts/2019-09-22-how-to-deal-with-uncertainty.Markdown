@@ -4,7 +4,7 @@ layout: post
 date: 2019-09-22 21:24
 tag:
 - uncertainty
-- my thoughs
+- thoughts
 blog: true
 ---
 

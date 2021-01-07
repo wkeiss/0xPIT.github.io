@@ -3,10 +3,10 @@ title: "What I Learned from Building My First Site"
 layout: post
 date: 2020-10-18
 tag:
-- "2020"
-- "blog"
-- "growth"
-- ”work"
+- "learn web development"
+- "HTML"
+- "CSS"
+- "Javascript"
 blog: true
 
 ---

@@ -3,7 +3,6 @@ title: "New updates of my site"
 layout: post
 date: 2020-09-18
 tag:
-- "2020"
 - "blog"
 blog: true
 ---

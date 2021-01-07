@@ -3,9 +3,8 @@ title: "我的七月"
 layout: post
 date: 2019-08-01
 tag:
-- "2019"
+- life
 - July
-- growth
 blog: true
 ---
 

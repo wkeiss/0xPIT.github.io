@@ -5,7 +5,6 @@ date: 2019-07-12
 tag:
 - heart
 - life
-- growth
 blog: true
 ---
 

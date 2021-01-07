@@ -3,9 +3,7 @@ title: "学习网页开发0"
 layout: post
 date: 2019-10-20
 tag:
-- "2019"
 - "learn web development"
-- growth
 blog: true
 ---
 

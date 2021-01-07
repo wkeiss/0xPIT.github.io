@@ -3,11 +3,7 @@ title: "我的 2020"
 layout: post
 date: 2021-01-01
 tag:
-- "2020"
-- "blog"
-- "growth"
-- ”work"
-- "life"
+- New year
 blog: true
 ---
 

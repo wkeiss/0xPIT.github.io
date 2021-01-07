@@ -5,7 +5,6 @@ date: 2018-02-28
 tag:
 - "big question"
 - learn
-- life
 blog: true
 ---
 

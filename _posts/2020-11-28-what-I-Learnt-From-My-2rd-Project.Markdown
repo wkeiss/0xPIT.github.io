@@ -3,10 +3,8 @@ title: "What I Learned from Building My Second Project"
 layout: post
 date: 2020-11-28
 tag:
-- "2020"
-- "blog"
-- "growth"
-- ”work"
+- "Django"
+- "Lonely Island"
 blog: true
 ---
 

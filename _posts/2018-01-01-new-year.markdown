@@ -3,8 +3,7 @@ title: "我的2017年：恰同学少年"
 layout: post
 date: 2018-01-01
 tag:
-- "2017"
-- new year
+- New year
 blog: true
 ---
 
