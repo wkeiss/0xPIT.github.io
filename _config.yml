@@ -1,40 +1,34 @@
 # main text of home
-<<<<<<< HEAD
+
 name: Cindy
 bio: 'A Person Who Living As Herself'
-=======
-name: John Doe
-bio: A Man who travels the world eating noodles
 
-# twitter summary info
-description: A blog about technology and stuff related
->>>>>>> upstream/gh-pages
 
 # if it's an external image, update below for true
 # better with square images
 external-image: false
 picture: assets/images/profile.jpg
 
-<<<<<<< HEAD
+
 url: https://www.cindyli.top
 permalink: /:title/
-=======
+
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://sergiokopplin.github.io/indigo
+url: https://wkeiss.github.io
 # your url: https://USERNAME.github.io
->>>>>>> upstream/gh-pages
+
 
 permalink: /:title/
 
 # To enable google analytics, supply your token below
 # analytics-google: 'UA-42446402-4'
 
-<<<<<<< HEAD
+
 # if you don't want comments in your posts, set to false
 disqus: cindys-site
 
@@ -50,45 +44,39 @@ disqus: cindys-site
 github: wkeiss
 #medium: medium
 email: liguiguihua@gmail.com
-=======
+
 # if you don't want comments in your posts, leave categories empty
 disqus:
   shortname: mydisqus # enter this from your disqus account
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+#facebook: myfacebook
+#twitter: mytwitter
 # instagram: myinstagram
 # pinterest: mypinterest
 # linkedin: mylinkedin
 # youtube: myyoutube
 # spotify: myspotify
-github: mygithub
+github: wkeiss
 # gitlab: mygitlab
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: medium
+#medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: myemail@gmail.com
->>>>>>> upstream/gh-pages
+
 
 authors:
-  johndoe:
-    name: John Doe
-    bio: A Man who travels the world eating noodles
+  Cindy:
+    name: Cindy
+    bio: Path Finder
     external-image: false
     picture: assets/images/profile.jpg
-    twitter: johndoe
-  jamesfoster:
-    name: James Foster
-    bio: A Man who develops software with coffee
-    external-image: false
-    picture: assets/images/james.jpg
-    twitter: jamesfoster
+    twitter: wkeiss1
+
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -147,11 +135,7 @@ plugins:
   - jekyll-paginate-v2
 
 jekyll-mentions:
-<<<<<<< HEAD
-    base_url: https://github.com
 
-exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, indigo-gh-pages.zip, Rakefile, travis.sh]
-=======
   base_url: https://github.com
 
 compress_html:
@@ -170,4 +154,4 @@ exclude:
     "node_modules",
     "vendor",
   ]
->>>>>>> upstream/gh-pages
+
