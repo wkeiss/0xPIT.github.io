@@ -1,7 +1,7 @@
 ---
 title: "Learn Web Development"
 layout: post
-date: 2018-01-31 21:24
+date: 2020-09-25 21:24
 tag:
 - "learn web development"
 projects: true
