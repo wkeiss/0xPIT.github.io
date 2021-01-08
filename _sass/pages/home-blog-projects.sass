@@ -72,32 +72,3 @@
         position: relative
         top: -4px
         margin-right: 10px
-
-.latestWork
-    > .wrap
-        display: grid
-        grid-template-columns: 1fr 1fr
-        grid-template-areas: 
-            "item1 item2"
-            "item3 item4"
-
-%item-shared
-    object-fit: cover
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3)
-
-.item1
-    @extend %item-shared
-    grid-area: item1
-
-.item2
-    @extend %item-shared
-    grid-area: item2
-
-.item3
-    @extend %item-shared
-    grid-area: item3
-
-.item4
-    @extend %item-shared
-    grid-area: item4
-    
