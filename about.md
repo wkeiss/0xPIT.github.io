@@ -7,7 +7,7 @@ permalink: /about/index.html
 
 Hi, I am Cindy. Welcome to my site! <br>
 
-I am searching a path to be developer and live a happy life. I am interested in building something that creative and valuable, I hope I can use technology to solve some problems and provide happiness to others. For a newbid, I know there is a long way to where I want to go, but I will continuously search, try and fail. This site is used to record my exploring path. <br>
+I am searching a path to be builder and live a fulfiled life. I am interested in building something that creative and valuable, I hope I can use technology to solve some problems and provide happiness to others. For a newbid, I know there is a long way to where I want to go, but I will continuously search, try and fail. This site is used to record my exploring path. <br>
 
 Thanks for coming here, nice to meet you~ ：）
 
