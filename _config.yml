@@ -13,7 +13,7 @@ markdown: kramdown
 highlighter: rouge
 
 # To enable google analytics, supply your token below
-# analytics-google: 'UA-42446402-4'
+ analytics-google: 'G-99FQQY2DTF'
 
 # if you don't want comments in your posts, set to false
 disqus: cindys-site
